@@ -19,7 +19,7 @@
                 android:layout_width="140dp"
                 android:layout_height="100dp"
                 android:id="@+id/car_photo"
-                android:background="@drawable/logo"
+                android:background="@drawable/audi11"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginRight="16dp"
@@ -28,10 +28,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/car_name"
+                android:id="@+id/car_brand"
                 android:layout_toRightOf="@+id/car_photo"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
+                android:text="brand"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/car_name"
+                android:layout_toRightOf="@+id/car_photo"
+                android:layout_below="@+id/car_brand"
                 android:text="Name"
                 />
 
